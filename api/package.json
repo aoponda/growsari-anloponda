@@ -1,0 +1,30 @@
+{
+  "name": "test-growsari",
+  "version": "1.0.0",
+  "description": "Developer assessment exam for GrowSari applicants",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoponda/test-growsari.git"
+  },
+  "author": "ANLOponda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aoponda/test-growsari/issues"
+  },
+  "homepage": "https://github.com/aoponda/test-growsari#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.27",
+    "node-gyp": "^7.0.0",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.3.0"
+  }
+}
