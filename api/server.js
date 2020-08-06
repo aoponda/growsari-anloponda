@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const app = express();
 const db = require("./models");
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8082;
 var corsOptons = {
   origin: "http://localhost:8081" 
 };
